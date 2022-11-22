@@ -43,6 +43,15 @@ This behavior is not consistent.
 // Install necessary protoc lib in your $PATH
 cargo install protoc-gen-prost protoc-gen-prost-crate protoc-gen-prost-serdeprotoc-gen-tonic
 
+// Install buf
+brew install bufbuild/buf/buf
+
+// Install protoc
+brew install protobuf
+
+//Generate protobuf types
+buf generate
+
 // Build the program
 cargo build
 
