@@ -49,7 +49,7 @@ brew install bufbuild/buf/buf
 // Install protoc
 brew install protobuf
 
-//Generate protobuf types
+// Generate protobuf types
 buf generate
 
 // Build the program
