@@ -2,7 +2,7 @@
 
 This repo is a clone of Curioucity server to test specific issue below
 
-- Because we use protobuf as our single source of truth, we will use the protobuf generated struct as rest api response struct.
+Because we use protobuf as our single source of truth, we will use the protobuf generated struct as rest api response struct.
 
 ```rust
 use crate::pb; // protobuf types
